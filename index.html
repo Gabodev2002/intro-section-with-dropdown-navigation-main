@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="desktop.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  
+
+</head>
+<body>
+  <nav>
+     <div class="logo-box">
+      <img src="./images/logo.svg" alt="logo">
+      <button id="open"><img  class="close" src="images/icon-menu.svg" alt=""></button>
+    </div> 
+    <div class="menu">
+      <ul class="list-container ">
+        <button id="close"><img  class="close" src="./images/icon-close-menu.svg" alt=""></button>
+        <li class="list-item">
+          <div>
+            <a href="#" class="list-title" id="feature">Features</a>
+            <span class="arrow-down" id="arrow"></span>
+          </div>
+          <ul class="hidden-list show-list">
+            <li class="list-show">
+              <img src="./images/icon-todo.svg" alt="icon">
+              <a href="#">Todo List</a>
+            </li>
+            <li class="list-show">
+              <img src="./images/icon-calendar.svg" alt="icon">
+              <a href="#">Calendar</a>
+            </li>
+            <li class="list-show">
+              <img src="./images/icon-reminders.svg" alt="icon">
+              <a href="#">Reminders</a>
+            </li>
+            <li class="list-show">
+              <img src="./images/icon-planning.svg" alt="icon">
+              <a href="#">Planning</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="list-item"> 
+          <div>
+            <a href="#" class="list-title" id="company">Company</a>
+          <span class="arrow-down" id="arrow-two"></span>
+          </div>
+          <ul class="hidden-list__two">
+            <li class="list-show__second">
+              <a href="#">History</a>
+            </li>
+            <li class="list-show__second">
+              <a href="#">Our Team</a>
+            </li>
+            <li class="list-show__second">
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="list-item list-title">Careers</li>
+
+        <li class="list-item list-title">About</li>
+      </ul>
+      <div class="nav-register-box">
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="main-img-container">
+      <img src="images/image-hero-mobile.png" id="img-main" alt="main image">
+    </div>
+    <div class="main-content-container">
+      <h1>
+        Make <br> remote work
+      </h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes, create team rituals, andwatch productivity soar.
+      </p>
+      <a href="#">Learn more</a>
+      <div class="last-content">
+        <ul>
+          <li><img src="./images/client-databiz.svg" alt="img"></li>
+          <li><img src="images/client-audiophile.svg" alt="img"></li>
+          <li><img src="images/client-meet.svg" alt="img"></li>
+          <li><img src="images/client-maker.svg" alt="img"></li>
+        </ul>
+        </div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
